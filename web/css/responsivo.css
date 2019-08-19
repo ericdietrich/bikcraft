@@ -1,0 +1,193 @@
+/* Design Adaptável */
+
+/* Tablets e Similares */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/* Qualidade Home */
+.marca-qualidade{
+	height: 132px;
+	background: url(../img/marca-qualidade-tablet.png) no-repeat center;
+}
+
+.qualidade_lista li{
+	padding: 0;
+}
+
+/* Produto */
+.produto_icone{
+	padding: 41px 0;
+}
+
+.produto_info ul li{
+	width: 181px;
+}
+
+.produto_info p{
+	height: 122px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 30px;
+}
+
+.produto_item h2{
+	top: -140px;
+}
+
+/* Footer */
+.footer_redes ul li img {
+	padding: 6px;
+	height: 36px;
+	width: 36px;
+}
+
+
+}/* Final do Estilo para Tablet*/
+
+
+/* Smartphones */
+@media only screen and (max-width: 787px) {
+
+/*Header*/
+.header {
+	position: relative;
+	padding-bottom: 0;
+}
+
+.header img {
+	margin: 0 auto 10px auto;
+}
+
+.header_menu{
+	text-align: center;
+}
+
+.header_menu ul li {
+	margin: 5px;
+}
+
+.header_menu ul li a{
+	border: 4px solid #000;
+	width: 136px;
+	display: block; 
+	float: left;
+}
+
+.header_menu ul li a:hover {
+	border-color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+	border-color: #fff;
+}
+
+
+/*introdução*/
+.introducao {
+	margin-top: 0;
+	padding-top: 50px;
+	background: url(../img/bg-home-mobile.jpg) center no-repeat;
+}
+
+.introducao h1 {
+	font-size: 36px;
+}
+
+.quote-externo{
+	margin-bottom: 40px;
+}
+
+/* Introdução Interna */
+
+.introducao-interna {
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+/*Qualidade*/
+.marca-qualidade{
+	height: 123px;
+	background: url(../img/marca-qualidade-mobile.png) no-repeat center;
+}
+
+.call{
+	padding-top: 20px;
+}
+
+/* Sobre */
+.missao_sobre p{
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 0;
+}
+
+.missao_sobre ul li{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.missao_sobre h2{
+	line-height: 30px;
+}
+
+.missao_sobre h2:after{
+	margin: 6px 0;
+}
+
+/* Produto */
+.produto_icone{
+	padding: 41px 0;
+}
+
+.produto_info ul li{
+	height: 49px;
+	width: 149px;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 14px; 
+}
+
+.produto_info p{
+	height: auto;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 30px;
+}
+
+.produto_item h2{
+	top: -100px;
+	margin-bottom: -68px;
+}
+
+.form{
+	padding-right: 0;
+}
+
+.orcamento_dados ul {
+	padding-right: 0px;
+}
+
+/* Quebra */
+.quebra{
+	padding: 50px 0;
+}
+
+/* Contato */
+
+.contato_form{
+	padding-right: 0px;
+	margin-bottom: 40px;
+}
+
+/* Footer */
+.copyright{
+padding: 10px;
+margin: 0;
+}
+
+.copyright p{
+	margin: 0px;
+}
+
+
+
+}/* Final do Estilo para Smartphone*/
