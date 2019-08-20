@@ -1,0 +1,464 @@
+/* Estilos Gerais */
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+p{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.btn{
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.1em;
+	color: #fec63e;
+	font-family: Arial, Helvetica, sans-serif;
+	border: solid 3px #fec63e;
+	padding: 5px 20px;
+	font-weight: bold;
+}
+
+.btn:hover{
+	border-color: #fff;
+	color: #fff;
+}
+
+.btn.btn-preto:hover{
+	border-color: #000;
+	color: #000;
+}
+
+.subtitulo{
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .1em;
+}
+
+.subtitulo:after{
+	content:"";
+	display: block;
+	margin: 20px auto;
+	width: 60px;
+	height: 3px;
+	background: #000;
+}
+
+/* Header */
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #fec63e;
+	padding: 15px 0;
+	z-index: 10;
+}
+
+.header_menu{
+	text-align: right;
+}
+
+.header_menu ul li{
+	display: inline-block; 
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.header_menu ul li a{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.header_menu ul li a:hover{
+	color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+	color: #fff;
+}
+
+/* Introducao */
+.introducao{
+	 width: 100%;
+	 height: 380px;
+	 background: url(../img/bg-home.jpg) center no-repeat;
+	 background-size: cover;
+	 margin-top: 92px;
+	 color: #fff;
+	 text-align: center;
+	 padding-top: 80px;
+}
+
+.introducao h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.quote-externo{
+	max-width: 320px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	
+}
+
+.quote-externo p{
+	font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 60px;
+	background: #fff;
+	margin: 10px auto;
+}
+
+.quote-externo cite{
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: .1em
+}
+
+/* Introdução Interna */
+.introducao-interna{
+	 width: 100%;
+	 height: 160px;
+	 margin-top: 92px;
+	 color: #fff;
+	 text-align: center;
+	 padding-top: 40px;
+}
+
+.introducao-interna h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.introducao-interna h1:after{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 60px;
+	background: #fff;
+	margin: 10px auto; 
+}
+
+.subtitulo-interno{
+	font-size: 24px;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .1em;
+	margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+	content:"";
+	display: block;
+	margin: 20px 0;
+	width: 60px;
+	height: 3px;
+	background: #000;
+}
+
+
+
+/* Produtos */
+.produtos{
+	padding: 60px 0;	
+}
+
+.produtos_lista{
+	margin-top: 40px;
+
+}
+
+.produtos_lista li{
+	background: #fec63e;
+	text-align: center;
+}
+
+.produtos_icone{
+	background: #000;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.produtos_icone img{
+	margin: 0 auto;
+}
+
+.produtos_lista h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	margin: 10px 0;
+}
+
+.produtos_lista h3:after{
+	content:"";
+	display: block;
+	margin: 2px auto;
+	width: 60px;
+	height: 3px;
+	background: #000;
+}
+
+.produtos_lista p{
+	padding: 10px 20px 20px 20px;
+}
+
+.call{
+	text-align: center;
+	clear: both;
+	padding-top: 40px;
+}
+
+.call p{
+	margin-bottom: 10px;
+}
+
+
+/* Portfolio */
+
+.portfolio{
+	width: 100%;
+	background: #000;
+	padding: 40px 0;
+}
+
+.portfolio .subtitulo{
+	color: #fec63e;
+}
+
+.portfolio .subtitulo:after{
+	background: #fec63e;
+}
+
+.portfolio_lista li:last-child{
+	margin-top: 20px;
+}
+
+.portfolio p {
+	color: #fff;
+}
+
+
+/* Qualidade */
+.qualidade{
+	padding: 60px 0;
+}
+
+.qualidade img{
+	margin: 0 auto 10px auto;
+}
+
+.marca-qualidade{
+	height: 165px;
+	background: url(../img/marca-qualidade.png) no-repeat center;
+	background-size: auto;
+}
+
+.qualidade_lista li{
+	text-align: center;
+	padding: 0 40px;
+}
+
+.qualidade_lista h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	margin: 10px 0;
+}
+
+.qualidade_lista h3:after{
+	content:"";
+	display: block;
+	margin: 6px auto;
+	width: 60px;
+	height: 3px;
+	background: #000;
+}
+
+/*Quebra*/
+.quebra{
+	color: #fff;
+	text-align: center;
+	padding: 50px 0;
+	background: url(../img/bg-quebra-rodape.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 220px;
+}
+
+.quebra .quote-externo{
+	max-width: 400px;
+}
+
+/*Footer*/
+.footer{
+	width: 100%;
+	background: #000;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.footer h3{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #fec63e;
+}
+
+.footer h3:after{
+	content:"";
+	display: block;
+	margin: 6px 0 12px 0;
+	width: 60px;
+	height: 3px;
+	background: #fec63e;
+}
+
+.footer_historia {
+	padding-right: 40px;
+}
+
+.footer_redes ul li {
+	display: inline-block;
+	margin-right: 8px; 
+}
+
+.footer_redes ul li a {
+	border: solid #fec63e 2px;
+	display: block;
+}
+
+.footer_redes ul li img {
+	padding: 8px;
+}
+
+.footer_redes ul li a:hover{
+	border-color: #fff;
+}
+
+.copyright{
+	width: 100%;
+	background: #fec63e;
+	color: #000;
+	padding: 20px 0;
+}
+
+/* JAVASCRIPT */
+
+/* Quando uma página não carrega o javascript, todos os elementos que o utilizam desaparecem, para que não ocorra isso, acrescenta-se o .js no início de cada elemento de estilo, assim caso o javascript não seja carregado, a página ainda terá esses elementos*/
+
+
+/* Slide */
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top:  16px;
+
+}
+
+[data-slide-nav] button{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	padding: 0px;
+	border: none;
+	border-radius: 100%;
+	text-indent: -99px;
+	overflow: hidden;
+	background: #1d1d1d;
+}
+
+[data-slide-nav] button.active{
+	background: #fec63e;
+}
+
+
+/* Animação */
+
+.js [data-anime] {
+	opacity: 0;
+}
+
+.js .fadeInDown{
+	transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInUp{
+	transform: translate3d(0, 20px, 0);
+}
+
+.js .fadeInRight{
+	transform: translate3d(-20px, 0, 0);
+}
+
+.js .fadeInLeft{
+	transform: translate3d(20px, 0, 0);
+}
+
+.js .anime {
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece{
+	visibility: hidden;
+	height: 0;
+	position: absolute;
+}
+
+#form-sucesso{
+	color: #31aa39;
+}
+
+ #form-erro{
+ 	color: #f64540;
+}
